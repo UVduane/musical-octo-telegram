@@ -1,0 +1,17 @@
+[sso-session sso]
+sso_start_url = https://d-<something>.awsapps.com/start#
+sso_region = us-west-2
+sso_registration_scopes = sso:account:access
+
+[profile usesession]
+sso_session = sso
+sso_account_id = 222222222222
+sso_role_name = AdministratorAccess
+region = us-west-2
+
+[profile standalone]
+sso_account_id = 222222222222
+sso_role_name = AdministratorAccess
+region = us-west-2
+sso_start_url = https://d-<something>.awsapps.com/start#
+sso_region = us-west-2
